@@ -27,6 +27,14 @@
     border-radius: 5px;
     padding: 18px 32px;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;       
+}
+.sec-details{
+    font-size: 18px;
+    color: #757575;
+}
 .header {
     background-image: url(../images/developer.png) , url(../images/header_bg.png);
     background-repeat: no-repeat;
@@ -74,4 +82,23 @@ nav ul a {
 .banner-pro-pic{
     width: 584px;
     height: 676px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-me{
+    padding: 130px 150px;
+    margin-top: 130px;
+    border-radius: 10px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.item-details{
+    font-weight: 600;
+
 }
