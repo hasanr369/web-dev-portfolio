@@ -27,6 +27,9 @@
     border-radius: 5px;
     padding: 18px 32px;
 }
+.text-cntr{
+    text-align: center;
+}
 .section-title{
     font-size: 35px;
     font-weight: bold;       
@@ -87,11 +90,15 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 .about-me{
     padding: 130px 150px;
     margin-top: 130px;
     border-radius: 10px;
     text-align: center;
+    background-color: #FFF8F3;
 }
 .about-items{
     display: flex;
@@ -100,5 +107,13 @@ main{
 }
 .item-details{
     font-weight: 600;
-
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
 }
